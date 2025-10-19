@@ -1,5 +1,4 @@
 #include "backend_manager.hpp"
-#include <algorithm>
 #include <mutex>
 
 namespace lb {
