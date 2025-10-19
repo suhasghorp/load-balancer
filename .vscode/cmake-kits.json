@@ -1,0 +1,22 @@
+[
+    {
+        "name": "GCC Debug",
+        "compilers": {
+            "C": "/usr/bin/gcc",
+            "CXX": "/usr/bin/g++"
+        },
+        "cmakeSettings": {
+            "CMAKE_BUILD_TYPE": "Debug"
+        }
+    },
+    {
+        "name": "GCC Release",
+        "compilers": {
+            "C": "/usr/bin/gcc",
+            "CXX": "/usr/bin/g++"
+        },
+        "cmakeSettings": {
+            "CMAKE_BUILD_TYPE": "Release"
+        }
+    }
+]

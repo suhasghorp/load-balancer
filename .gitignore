@@ -20,16 +20,21 @@ Makefile
 # Binaries
 load_balancer
 backend_server
-tests
+/build*/tests
+/tests/test_*
+!tests/*.cpp
 *.o
 *.a
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
 *~
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/.cmaketools.json
+.cache/
 
 # OS
 .DS_Store

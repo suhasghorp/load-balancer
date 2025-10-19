@@ -1,0 +1,15 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build-${buildType}",
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureOnOpen": false,
+    "cmake.buildBeforeRun": true,
+    "cmake.clearOutputBeforeBuild": false,
+    "cmake.configureSettings": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "*.hpp": "cpp",
+        "*.cpp": "cpp"
+    }
+}
