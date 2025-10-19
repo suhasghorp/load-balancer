@@ -8,6 +8,9 @@
         "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
     "files.associations": {
         "*.hpp": "cpp",
         "*.cpp": "cpp"
