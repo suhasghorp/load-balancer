@@ -1,0 +1,24 @@
+{
+  "load_balancer": {
+    "port": 8000,
+    "log_file": "logs/lb.log",
+    "log_level": "INFO"
+  },
+  "backends": [
+    {"host": "localhost", "port": 8080, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8081, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8082, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8083, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8084, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8085, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8086, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8087, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8088, "health_endpoint": "/health"},
+    {"host": "localhost", "port": 8089, "health_endpoint": "/health"}
+  ],
+  "health_check": {
+    "interval_seconds": 1,
+    "timeout_seconds": 1
+  },
+  "algorithm": "round-robin"
+}
